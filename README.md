@@ -1,4 +1,4 @@
-**#GOOGLE FLORIDA UPDATE IMPLEMENTATION**
+#GOOGLE FLORIDA UPDATE IMPLEMENTATION
 
 - It is a Python script that analyzes a web page for potential keyword stuffing.
 - Keyword stuffing is a black hat SEO technique where web pages are loaded with keywords to manipulate search engine rankings.
