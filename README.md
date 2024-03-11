@@ -40,3 +40,6 @@
 
 6. **Main Execution:**
    - The script is set to analyze the keyword stuffing for the (Lasalgaon Onion market) topics page (e.g.,`"https://en.wikipedia.org/wiki/Lasalgaon"`).
+  
+<img width="960" alt="Screenshot 2024-02-15 003020" src="https://github.com/ShubhamGuthale/Implementation-Of-Google-Florida-Update/assets/150772720/6d12e71a-1f56-44d2-aebc-6ed7bf54394d">
+
