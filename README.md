@@ -1,45 +1,24 @@
+# 🧠 Google Florida Update - Keyword Stuffing Analyzer
 
-# GOOGLE FLORIDA UPDATE IMPLEMENTATION
- 
+A Python-based tool to detect **keyword stuffing**, inspired by the principles of Google's Florida Algorithm Update (2003). This script analyzes textual content from a given web page URL and flags any overused keywords that may indicate manipulative SEO practices.
 
-- It is a Python script that analyzes a web page for potential keyword stuffing.
+![Keyword Stuffing Detection](https://github.com/ShubhamGuthale/Implementation-Of-Google-Florida-Update/assets/150772720/6d12e71a-1f56-44d2-aebc-6ed7bf54394d)
 
-- Keyword stuffing is a black hat SEO technique where web pages are loaded with keywords to manipulate search engine rankings.
+---
 
-- This script fetches the content of a given web page, extracts text from HTML,and then analyzes the frequency of keywords.
+## 📌 Project Objective
 
-- If a keyword appears more than a specified limit, it is flagged as potential keyword stuffing.
+Keyword stuffing is a **black-hat SEO technique** that manipulates search engine rankings by overusing targeted keywords. This tool programmatically fetches a web page, extracts its textual content, filters out stopwords, analyzes word frequency, and flags any potential stuffing patterns.
 
+---
 
-# Explanation of the code 
+## 🧰 Tech Stack & Tools
 
+- **Python 3**
+- **Requests** - Web page fetching
+- **BeautifulSoup (bs4)** - HTML parsing
+- **NLTK (Natural Language Toolkit)** - NLP stopwords filtering
+- **Collections.Counter** - Keyword frequency analysis
+- **IDE:** Visual Studio Code
 
-1. **Importing Libraries:**
-   - `requests`: Used for making HTTP requests to fetch the web page.
-   - `BeautifulSoup`: A library for pulling data out of HTML and XML files.
-   - `Counter`: From the `collections` module, used for counting the occurrences of elements in a list.
-   - `stopwords`: From the `nltk` library, used for removing common words (e.g., "the", "and") from the text.
-   - `nltk`: Natural Language Toolkit.
-
-
-2. **Fetching Page Content:**
-   - `get_page_content`: A function that takes a URL as input, makes an HTTP request to that URL, and returns the page content as text.
-
-
-3. **Extracting Text from HTML:**
-   - `extract_text_from_html`: A function that uses BeautifulSoup to parse the HTML content and extracts the text from all `<p>` (paragraph) tags.
-
-
-4. **Analyzing Keyword Frequency:**
-   - `keyword_frequency`: A function that takes text as input, tokenizes it into words, removes stopwords, and then counts the frequency of each word using `Counter`.
-
-
-5. **Checking for Keyword Stuffing:**
-   - `keyword_stuffing`: The main function that combines the above functions. It fetches the page content, extracts text, calculates keyword frequency, and then prints any words that appear more than a specified limit.
-
-
-6. **Main Execution:**
-   - The script is set to analyze the keyword stuffing for the (Lasalgaon Onion market) topics page (e.g.,`"https://en.wikipedia.org/wiki/Lasalgaon"`).
-  
-<img width="960" alt="Screenshot 2024-02-15 003020" src="https://github.com/ShubhamGuthale/Implementation-Of-Google-Florida-Update/assets/150772720/6d12e71a-1f56-44d2-aebc-6ed7bf54394d">
-
+---
